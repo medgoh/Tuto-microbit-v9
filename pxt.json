@@ -1,0 +1,29 @@
+{
+    "name": "microbit-tutorials",
+    "version": "4.1.1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "audio-recording": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+	"recording.ts",
+        "README.md",
+        "drole.md",
+	"niveau_bulle.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "3.0.0",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
